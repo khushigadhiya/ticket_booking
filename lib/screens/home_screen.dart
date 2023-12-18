@@ -1,7 +1,6 @@
 import 'package:booktickets/appManager.dart';
 import 'package:booktickets/screens/hotel_screen.dart';
 import 'package:booktickets/screens/ticket_view.dart';
-import 'package:booktickets/utils/app_info_list.dart';
 import 'package:booktickets/widgets/double_text_widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
@@ -95,6 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const Gap(25),
                 Container(
                   // margin: EdgeInsets.only(top: 25,),
+                  // ok
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: const Color(0xFFF4F6FD)
