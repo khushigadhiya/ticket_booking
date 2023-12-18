@@ -94,7 +94,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 const Gap(25),
                 Container(
                   // margin: EdgeInsets.only(top: 25,),
-                  // ok
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     color: const Color(0xFFF4F6FD)
